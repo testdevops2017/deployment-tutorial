@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /var/www/html/buson
 permissions:
-   - object: /var/www/html
+   - object: /var/www/html/buson
      pattern: "**"
      owner: apache
      group: apache
