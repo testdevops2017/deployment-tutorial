@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/buson
+     destination: /var/www/html/py_test
 permissions:
-   - object: /var/www/html/buson
+   - object: /var/www/html/py_test
      pattern: "**"
      owner: apache
      group: apache
