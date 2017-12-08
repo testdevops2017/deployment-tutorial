@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/py_test
+     destination: /var/www/html/py_test_2
 permissions:
-   - object: /var/www/html/py_test
+   - object: /var/www/html/py_test_2
      pattern: "**"
      owner: apache
      group: apache
